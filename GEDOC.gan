@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-10-27" view-index="1" gantt-divider-location="542" resource-divider-location="406" version="3.3.3300" locale="pt_BR">
+    <description/>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="309" order="0"/>
+        <field id="tpd4" name="Data inicial" width="116" order="1"/>
+        <field id="tpd5" name="Data final" width="116" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#00ff66 #33ffcc #f4f4f4 #99ff33 #ffcc33 #ff6633 #ff3333 #ff3366 #ff6699 #9933ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="263" order="0"/>
+        <field id="1" name="Função" width="139" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="fd9d877e5c8d49818a61fee38bd21ebc" name="SCRUM" color="#cc00cc" meeting="false" start="2024-11-01" duration="138" complete="0" thirdDate="2023-10-25" thirdDate-constraint="0" expand="true">
+            <task id="1" uid="b04a5fc60d0b446ea92ca86d6449fab7" name="Sprint 1 (10)" color="#6666ff" meeting="false" start="2024-11-01" duration="14" complete="0" thirdDate="2023-10-25" thirdDate-constraint="0" expand="true">
+                <task id="2" uid="06a140eeaaef4e73a0a5a7cef2bbb3fa" name="Desenvolver sistema de login e registro" color="#6666ff" meeting="false" start="2024-11-01" duration="14" complete="0" thirdDate="2023-10-25" thirdDate-constraint="0" expand="true"/>
+                <task id="4" uid="242b4cc77aab406793ccca1df490f769" name="Implementar a integração com o banco de dados" color="#6666ff" meeting="false" start="2024-11-01" duration="14" complete="0" thirdDate="2023-10-25" thirdDate-constraint="0" expand="true"/>
+                <task id="5" uid="369431333a0649cf890044e281c991c2" name="Reunir-se com os stakeholders para refinar o escopo e prioridades do projeto" color="#6666ff" meeting="false" start="2024-11-01" duration="14" complete="0" thirdDate="2023-10-25" thirdDate-constraint="0" expand="true"/>
+                <task id="6" uid="1d8fcb7dff1e4cbbb73af2457dedb9ca" name="Criar interface do professor para pagina de login" color="#6666ff" meeting="false" start="2024-11-01" duration="14" complete="0" thirdDate="2023-10-25" thirdDate-constraint="0" expand="true"/>
+                <task id="7" uid="d51ba16a77094630897ccf1fe2c5bb1b" name="Documentar o fluxo do professor junto das funcionalidades de login / Criação PID / Criação RID" color="#6666ff" meeting="false" start="2024-11-01" duration="14" complete="0" thirdDate="2023-10-25" thirdDate-constraint="0" expand="true"/>
+                <task id="8" uid="5873955548e24144beb44656ae216e89" name="Testar login e registro e reportar eventualidades" color="#6666ff" meeting="false" start="2024-11-01" duration="14" complete="0" thirdDate="2023-10-25" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="11" uid="cc341569ef7d4aa484ad1c3bfa62266a" name="Sprint 2 (10)" color="#9933ff" meeting="false" start="2024-11-20" duration="21" complete="0" thirdDate="2023-10-25" thirdDate-constraint="0" expand="false">
+                <task id="12" uid="639a74e95ba04af98725026575451df3" name="Implementar página de gestão do professor" color="#9933ff" meeting="false" start="2024-11-20" duration="21" complete="0" thirdDate="2023-10-25" thirdDate-constraint="0" expand="true"/>
+                <task id="13" uid="ee864c8cc96249e49ab018cfe57e9291" name="Criar mecanismos de importação" color="#9933ff" meeting="false" start="2024-11-20" duration="21" complete="0" thirdDate="2023-10-25" thirdDate-constraint="0" expand="true"/>
+                <task id="18" uid="b3a1d9a06e0e44bb9e543bf5a9d616c6" name="Verificar dificuldades e alinhar time" color="#9933ff" meeting="false" start="2024-11-20" duration="21" complete="0" thirdDate="2023-10-25" thirdDate-constraint="0" expand="true"/>
+                <task id="14" uid="fc70861f0c5e4f518281b23ccc7752a5" name="criar design da página PID" color="#9933ff" meeting="false" start="2024-11-20" duration="21" complete="0" thirdDate="2023-10-25" thirdDate-constraint="0" expand="true"/>
+                <task id="15" uid="5ad6d5db263f465db858d2939e5e2ed6" name="documentar funcionalidades da PID" color="#9933ff" meeting="false" start="2024-11-20" duration="21" complete="0" thirdDate="2023-10-25" thirdDate-constraint="0" expand="true"/>
+                <task id="16" uid="7398dbaace344cf8aa7748abef7de64c" name="testar area de cadastro e edição do PID" color="#9933ff" meeting="false" start="2024-11-20" duration="21" complete="0" thirdDate="2023-10-25" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="20" uid="3d3c11c1c2bc4132a3ef122b34bd3a7b" name="Sprint 3 (10)" color="#ff6699" meeting="false" start="2024-11-29" duration="33" complete="0" thirdDate="2023-11-01" thirdDate-constraint="0" expand="false">
+                <task id="21" uid="0d14ce352434437caddffede76d518be" name="Implementar modais do site" color="#ff6699" meeting="false" start="2024-11-29" duration="10" complete="0" thirdDate="2023-11-01" thirdDate-constraint="0" expand="true"/>
+                <task id="22" uid="42443daa756e448ba5095052f3cf1af4" name="Criar funcionalidade de cadastro de RID" color="#ff6699" meeting="false" start="2024-11-29" duration="30" complete="0" thirdDate="2023-11-01" thirdDate-constraint="0" expand="true"/>
+                <task id="24" uid="15be4e059ad142c1aa4822032791d554" name="Alinhar tarefas e analizar desempenho equipe" color="#ff6699" meeting="false" start="2024-11-29" duration="30" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="23" uid="d587873f96e145c996cb26c31c31ec68" name="Criar design da página do RID" color="#ff6699" meeting="false" start="2024-11-29" duration="30" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="25" uid="512d5f60114d4ff090e347fa22986198" name="Documentar funcionalidade do RID" color="#ff6699" meeting="false" start="2024-11-29" duration="30" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="26" uid="6bf1b52a7f6d439fb28335d477dfabdc" name="Testar cadastro e edição do RID" color="#ff6699" meeting="false" start="2024-12-09" duration="27" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="27" uid="fff715a2eed449ac95ec980369d82da7" name="Sprint 4 (10)" color="#ff3366" meeting="false" start="2025-01-10" duration="14" complete="0" thirdDate="2023-12-13" thirdDate-constraint="0" expand="false">
+                <task id="28" uid="544530536e0d46c3858161cba96783ed" name="Adicionar recurso transparência para visitantes" color="#ff3366" meeting="false" start="2025-01-10" duration="14" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="29" uid="279032aa16fe49969e3b4543ee803360" name="Implementar integração com gateways de google analytics" color="#ff3366" meeting="false" start="2025-01-10" duration="14" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="33" uid="4c0fb129d47442e3b318efaf21e60298" name="Alinhar com o cliente as etapas e verificar status da equipe e andamentos" color="#ff3366" meeting="false" start="2025-01-10" duration="14" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="30" uid="6f4efcec6fa44c4e93ba5a42dab09b4c" name="Design do portal transparència" color="#ff3366" meeting="false" start="2025-01-10" duration="14" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="31" uid="48ae57547c024519a900d836070dd7ba" name="Documentar recursos do PID e RID" color="#ff3366" meeting="false" start="2025-01-10" duration="14" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="32" uid="56ab3cdf14354a28bf6c2dc166a04007" name="testar importações e sincronização" color="#ff3366" meeting="false" start="2025-01-10" duration="14" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="34" uid="c9c0f0dd02964e78af6625dd34851139" name="Sprint 5 (10)" color="#ff3333" meeting="false" start="2025-01-30" duration="14" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="false">
+                <task id="35" uid="ad733a8c0dad4508a9bd9e9dcfeafbd8" name="Implementar historio de edição do professor" color="#ff3333" meeting="false" start="2025-01-30" duration="14" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="36" uid="282b113e062340b39bd883666ae91344" name="Criar opção de arquivar RID/ PID" color="#ff3333" meeting="false" start="2025-01-30" duration="14" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="43" uid="d149aa9f50934cf9807f1e6bf214ebe8" name="Alinhar com stakeolders" color="#ff3333" meeting="false" start="2025-01-30" duration="14" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="45" uid="819695f0190648c7a1f79dcd79014975" name="Criar design da página de edição de perfil professor" color="#ff3333" meeting="false" start="2025-01-30" duration="14" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="46" uid="b893201a04b145438dee3cad5506b049" name="Criar documentação da edição de professor" color="#ff3333" meeting="false" start="2025-01-30" duration="14" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="47" uid="91520e2ec64f4e09a2e2e001440ea18c" name="Testar pagina de edição de professor" color="#ff3333" meeting="false" start="2025-01-30" duration="14" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="41" uid="e0a920bb136a4c6cbc98896949df0d2e" name="Sprint 6 (30)" color="#00ff66" meeting="false" start="2025-02-19" duration="30" complete="0" thirdDate="2024-04-18" thirdDate-constraint="0" expand="false">
+                <task id="63" uid="c778d84980f84d8984417fafd174d7a0" name="Revisar códigos e identações do projeto" color="#00ff66" meeting="false" start="2025-02-19" duration="30" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="72" uid="114d095c8b19467d9dfb5ae20df580e2" name="Verificar implementações incompletas" color="#00ff66" meeting="false" start="2025-02-19" duration="30" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="73" uid="ab2168750a5947d5968dd7b0b8adc8de" name="alinhar todas as funcionalidades com o cliente" color="#00ff66" meeting="false" start="2025-02-19" duration="30" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="75" uid="faa7ecc078df4f34b9635e1c44fb85a4" name="fazes todos os teste de páginas já implementadas" color="#00ff66" meeting="false" start="2025-02-19" duration="30" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="42" uid="6070221817cc49afb738b0040c19ad61" name="Sprint 7 (30)" color="#33ffcc" meeting="false" start="2025-04-02" duration="30" complete="0" thirdDate="2024-05-30" thirdDate-constraint="0" expand="true">
+                <task id="64" uid="203b3a33420143b2bd31c7d9e0bfb075" name="Finalizar todos os commits e banchs" color="#33ffcc" meeting="false" start="2025-04-02" duration="30" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="65" uid="284e7a78ae344fffa39adf1df97650a5" name="Realizar a instalação e explicação do sistema" color="#33ffcc" meeting="false" start="2025-04-02" duration="30" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+                <task id="66" uid="a9b55179308b4b2ba8c1bfc50cd5a1b5" name="Apresentar documentação e funcionalidades" color="#33ffcc" meeting="false" start="2025-04-02" duration="30" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="4" name="Maria" function="SoftwareDevelopment:3" contacts="maria@email.com" phone="7418529630"/>
+        <resource id="2" name="Marcos GP" function="Default:1" contacts="marcos@email.com" phone="6564665465465"/>
+        <resource id="5" name="Luiza" function="SoftwareDevelopment:4" contacts="luiza@email.com" phone="9638527410"/>
+        <resource id="1" name="Lohran DEV" function="SoftwareDevelopment:2" contacts="lohran@email.com" phone="9876543210"/>
+        <resource id="0" name="Joao DEV" function="SoftwareDevelopment:2" contacts="joao@email.com" phone="0123456789"/>
+        <resource id="3" name="Bruno DG" function="SoftwareDevelopment:5" contacts="bruno@email.com" phone="6543219870"/>
+    </resources>
+    <allocations>
+        <allocation task-id="7" resource-id="4" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="4" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="4" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="4" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="46" resource-id="4" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="66" resource-id="4" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="65" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="63" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="73" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="5" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="5" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="5" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="5" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
+        <allocation task-id="47" resource-id="5" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
+        <allocation task-id="75" resource-id="5" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="64" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="63" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="72" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="35" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="64" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="3" function="SoftwareDevelopment:5" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="3" function="SoftwareDevelopment:5" responsible="true" load="100.0"/>
+        <allocation task-id="23" resource-id="3" function="SoftwareDevelopment:5" responsible="true" load="100.0"/>
+        <allocation task-id="30" resource-id="3" function="SoftwareDevelopment:5" responsible="true" load="100.0"/>
+        <allocation task-id="45" resource-id="3" function="SoftwareDevelopment:5" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
